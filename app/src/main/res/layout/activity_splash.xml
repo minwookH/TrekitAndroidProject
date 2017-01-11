@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/splash_icon_image"
-        android:background="@drawable/icon"
+        android:src="@drawable/icon"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/splash_map_image"
         android:layout_marginBottom="159dp"/>
@@ -30,7 +30,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/map"
+        android:src="@drawable/map"
         android:id="@+id/splash_map_image"
         android:scaleType="fitCenter"
         android:layout_alignParentBottom="true"/>
